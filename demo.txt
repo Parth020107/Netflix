@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Netflix India - Watch TV Shows Online, Watch Movies Online </title>
+    <style>
+        
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 70vh;
+    background-image: url(images/bg.jpg);
+    position: relative;
+}
+.main .box{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.45;
+}
+nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <span>
+                <img src="images/logo.svg" alt="logo">
+            </span>
+            <div>
+                <button>English</button>
+                <button>Sign In</button>
+            </div>
+        </nav>
+        <div class="box"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
